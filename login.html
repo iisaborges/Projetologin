@@ -7,14 +7,21 @@
     <body>
         <h1>Login</h1> 
         <form method="post" action="#">
+
             <p>
                 <label for="usuario_login">Usuario</label>
-                <input id="usuario_login" name="usuario_login" type="text">
+                <input name="usuario_login" type="text">
             </p>
             <p>
                 <label for="senha_login">Senha:</label>
-                <input id="senha_login" name="senha_login" type="password">
+                <input id="senha_login" name="senha_login" type="password" required>
             </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="manterlogado" value="sim">
+                </label>
+            </p>
+
         </form>
     </body>
 </html>
